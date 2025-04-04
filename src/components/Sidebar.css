@@ -1,0 +1,53 @@
+/* Sidebar.css */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.sidebar {
+    width: 250px;
+    background-color: #f4f4f4;
+    padding: 20px;
+    height: 100vh;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar h2 {
+    margin-bottom: 20px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin: 15px 0;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+}
+
+.main-content {
+    margin-left: 250px;
+    padding: 20px;
+}
+
+.dashboard-stats {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+.dashboard-stats div {
+    text-align: center;
+}
+
+.instructions {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+}

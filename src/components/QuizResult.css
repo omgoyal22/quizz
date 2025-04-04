@@ -1,0 +1,63 @@
+.result-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    /* Light gray background */
+    font-family: 'Arial', sans-serif;
+}
+
+.show-score {
+    background-color: #34495e;
+    /* Dark blue background */
+    color: white;
+    /* White text */
+    padding: 30px 50px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+}
+
+.show-score h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #ffffff;
+    /* White text */
+}
+
+.score-text {
+    font-size: 48px;
+    font-weight: bold;
+    color: #1abc9c;
+    /* Teal color for the score */
+    margin: 10px 0;
+}
+
+.total-score-text {
+    font-size: 18px;
+    color: #bdc3c7;
+    /* Light gray for the total score */
+}
+
+.next-button {
+    background-color: #1abc9c;
+    /* Teal color for the button */
+    color: white;
+    /* White text */
+    padding: 15px 30px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.next-button:hover {
+    background-color: #16a085;
+    /* Darker teal on hover */
+}
