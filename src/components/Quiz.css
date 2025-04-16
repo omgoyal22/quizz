@@ -1,8 +1,37 @@
+.quiz-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+    /* Full screen height */
+    font-size: 28px;
+    font-weight: bold;
+}
 .dashboard-container {
     max-width: 800px;
     margin: 40px auto;
     padding: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full height of viewport */
+}
+
+.quiz-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 40px;
+    /* optional spacing */
+}
+.quiz-title {
+    text-align: center;
+    font-size: 2.5rem;
+    margin: 2rem 0;
+    font-weight: bold;
 }
 
 .dashboard-title {
